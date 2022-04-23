@@ -1,0 +1,68 @@
+Variables: Definition and Operationalization
+
+PIDD consists of several medical parameters and one dependent (outcome) parameter of binary values .
+This dataset is mainly for female gender and Description of dataset is as following
+
+9 columns with 8 independent parameter and one outcome parameter with uniquely identified 768 observations having 268 positive for diabetes 
+(1) and 500 negative for diabetes (0)
+
+1. Pregnancies : Number of times pregnant
+
+2. Glucose: Oral Glucose Tolerance Test result
+
+The glucose tolerance test is a lab test to check how your body moves sugar from the blood into tissues like muscle and fat. 
+The test is often used to diagnose diabetes.
+
+How Test was performed
+
+The most common glucose tolerance test is the oral glucose tolerance test (OGTT). Before the test begins, a sample of blood will be taken.
+You will then be asked to drink a liquid containing a certain amount of glucose (usually 75 grams). 
+Your blood will be taken again every 30 to 60 minutes after you drink the solution.
+
+3. BloodPressure: Diastolic Blood Pressure values in (mm Hg)
+
+The diastolic reading, or the bottom number, is the pressure in the arteries when the heart rests between beats. 
+This is the time when the heart fills with blood and gets oxygen.
+
+This is what your diastolic blood pressure number means:
+
+Normal: Lower than 80
+Stage 1 hypertension: 80–89
+Stage 2 hypertension: 90 or more
+Hypertensive crisis: 120 or more
+
+Most people with diabetes will eventually have high blood pressure.
+
+Source : https://medium.com/analytics-vidhya/analyzing-pima-indian-diabetes-dataset-36d02a8a10e5
+4. SkinThickness: Triceps skin fold thickness in (mm)
+
+Skinfold thickness, so that a prediction of the total amount of body fat can be made. 
+The triceps skinfold is necessary for calculating the upper arm muscle circumference.
+Its thickness gives information about the fat reserves of the body, whereas the calculated muscle mass gives information about the protein reserves.
+For adults, the standard normal values for triceps skinfolds are 2.5mm (men) or about 20% fat; 18.0mm (women) or about 30% fat. 
+Measurement half, or less, of these values represent about the 15th percentile and can be considered as either borderline, or fat depleted. 
+Values over 20mm (men) and 30mm (women) represent about the 85th percentile, and can be considered.
+
+5. Insulin: 2-Hour serum insulin (mu U/ml)
+
+Insulin is a hormone that helps move blood sugar, known as glucose, from your bloodstream into your cells.
+2-hour Serum Insulin: Greater than 150 mu U/ml relates to insulin therapy
+Insulin therapy is a critical part of treatment for people with type 1 diabetes and also for many with type 2 diabetes.
+The goal of insulin therapy is to keep your blood sugar levels within a target range.
+
+6. BMI: Body mass index
+
+The Body Mass Index (BMI) provides a simple, yet accurate method of assessing whether a patient is at risk from either over-or-underweight. 
+However, a proportionally greater lean body mass and/or skeletal frame size can contribute to apparent excess body weight.
+Many athletes, for example would be considered ‘overweight’, yet skin-fold tests show a sub-normal amount of adipose tissue. 
+It can easily be calculated by dividing the patient’s weight (kg) by the square of their height (meters).
+BMI= weight(kg)/[height(m)]²
+
+7. DiabetesPedigreeFunction: Diabetes pedigree function
+
+Diabetes Pedigree Function, it provided some data on diabetes mellitus history in relatives and the genetic relationship of those relatives to the patient.
+This measure of genetic influence gave us an idea of the hereditary risk one might have with the onset of diabetes mellitus.
+
+8. Age: Age in years
+
+9. Outcome: Class 1 indicates person having diabetes and 0 indicates other.
