@@ -1,5 +1,5 @@
 # Diabetes
-Experimenting with the well know diabetes dataset.
+Experimenting with the well know Pima Indians diabetes dataset.
 
 About Dataset
 
